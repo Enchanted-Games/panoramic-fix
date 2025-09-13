@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "games.enchanted.eg_panoramic_fix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PanoramaRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "AirBasedFogEnvironmentMixin",
+    "MinecraftMixin",
+    "accessor.CameraAccessor"
+  ]
+}
